@@ -16,6 +16,8 @@
 		B49D57062B47D42D009BB318 /* TikTokCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49D57052B47D42D009BB318 /* TikTokCloneTests.swift */; };
 		B49D57102B47D42D009BB318 /* TikTokCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49D570F2B47D42D009BB318 /* TikTokCloneUITests.swift */; };
 		B49D57122B47D42D009BB318 /* TikTokCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49D57112B47D42D009BB318 /* TikTokCloneUITestsLaunchTests.swift */; };
+		B49D571F2B47E567009BB318 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49D571E2B47E566009BB318 /* SignUpViewController.swift */; };
+		B49D57212B4BE65D009BB318 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49D57202B4BE65C009BB318 /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B49D570B2B47D42D009BB318 /* TikTokCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikTokCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B49D570F2B47D42D009BB318 /* TikTokCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokCloneUITests.swift; sourceTree = "<group>"; };
 		B49D57112B47D42D009BB318 /* TikTokCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B49D571E2B47E566009BB318 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B49D57202B4BE65C009BB318 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				B49D56F02B47D42B009BB318 /* SceneDelegate.swift */,
 				B49D56F22B47D42B009BB318 /* ViewController.swift */,
 				B49D56F42B47D42B009BB318 /* Main.storyboard */,
+				B49D571E2B47E566009BB318 /* SignUpViewController.swift */,
+				B49D57202B4BE65C009BB318 /* SignInViewController.swift */,
 				B49D56F72B47D42C009BB318 /* Assets.xcassets */,
 				B49D56F92B47D42C009BB318 /* LaunchScreen.storyboard */,
 				B49D56FC2B47D42C009BB318 /* Info.plist */,
@@ -260,6 +266,8 @@
 			files = (
 				B49D56F32B47D42B009BB318 /* ViewController.swift in Sources */,
 				B49D56EF2B47D42B009BB318 /* AppDelegate.swift in Sources */,
+				B49D571F2B47E567009BB318 /* SignUpViewController.swift in Sources */,
+				B49D57212B4BE65D009BB318 /* SignInViewController.swift in Sources */,
 				B49D56F12B47D42B009BB318 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
